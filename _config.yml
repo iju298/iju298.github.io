@@ -2,10 +2,10 @@
 title: My archive
 description: ...
 url: https://iju298.github.io
-avatar: /avatar.jpeg
+avatar: /book.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /milky_way.jpg
 
 # Gems
 plugins:
