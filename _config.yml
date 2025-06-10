@@ -32,7 +32,7 @@ exclude:
 # Optimize Jekyl SEO Tag
 logo: logo.png
 social:
-  name: JuI
+  name: Jui
   links:
     - https://github.com/iju298
 google_site_verification: xxxxx
@@ -52,6 +52,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: JuI
+  name: Jui
   url: https://github.com/iju298/
   email: g.iju298@gmail.com
