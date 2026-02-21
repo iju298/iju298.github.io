@@ -6,10 +6,17 @@
   text-align: center;
   margin: auto;
   width: 100%;
+  position: relative;
 
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  .masthead-controls {
+    position: absolute;
+    top: var(--spacer);
+    right: var(--spacer);
   }
 }
 
@@ -86,5 +93,13 @@
 @media (max-width: $md-width) {
   .avatar-image {
     width: 15%;
+  }
+
+  .masthead {
+    .masthead-controls {
+      position: static;
+      margin-top: var(--spacer);
+      text-align: center;
+    }
   }
 }

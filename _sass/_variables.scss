@@ -67,6 +67,37 @@
   }
 }
 
+/* Explicit overrides when `data-theme` is set on the root element.
+   This allows a JS toggle to force light/dark mode regardless of
+   the system `prefers-color-scheme` setting. */
+:root[data-theme="dark"] {
+  --body-color: var(--gray-300);
+  --body-bg: var(--gray-800);
+
+  --heading-color: #fff;
+
+  --link-color: var(--blue-300);
+  --link-hover-color: var(--blue-400);
+
+  --border-color: rgba(255,255,255,.15);
+
+  --code-bg: #282828;
+}
+
+:root[data-theme="light"] {
+  --body-color: var(--gray-700);
+  --body-bg: #fff;
+
+  --heading-color: var(--gray-900);
+
+  --link-color: var(--blue);
+  --link-hover-color: #1c7ed6;
+
+  --border-color: var(--gray-300);
+
+  --code-bg: #fbf1c7;
+}
+
 $sm-width: 35.5rem;
 $md-width: 48rem;
 $lg-width: 64rem;
